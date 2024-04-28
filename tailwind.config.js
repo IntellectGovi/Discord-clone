@@ -1,6 +1,7 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html"],
+  content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {},
   },
@@ -10,4 +11,4 @@ module.exports = {
     Ginto:["Ginto"],
     ggSans:["ggSans"],
   },
-};
+}
